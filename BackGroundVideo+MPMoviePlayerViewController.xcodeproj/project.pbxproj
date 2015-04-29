@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945F51541AF0E442001AC5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F51531AF0E442001AC5AF /* AppDelegate.swift */; };
+		945F51561AF0E442001AC5AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F51551AF0E442001AC5AF /* ViewController.swift */; };
+		945F51591AF0E443001AC5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945F51571AF0E443001AC5AF /* Main.storyboard */; };
+		945F515B1AF0E443001AC5AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945F515A1AF0E443001AC5AF /* Images.xcassets */; };
+		945F515E1AF0E443001AC5AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945F515C1AF0E443001AC5AF /* LaunchScreen.xib */; };
+		945F516A1AF0E443001AC5AF /* BackGroundVideo_MPMoviePlayerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F51691AF0E443001AC5AF /* BackGroundVideo_MPMoviePlayerViewControllerTests.swift */; };
+		945F51741AF0E4B1001AC5AF /* backgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 945F51731AF0E491001AC5AF /* backgroundVideo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		945F51641AF0E443001AC5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945F51461AF0E442001AC5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 945F514D1AF0E442001AC5AF;
+			remoteInfo = "BackGroundVideo+MPMoviePlayerViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945F514E1AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackGroundVideo+MPMoviePlayerViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945F51521AF0E442001AC5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945F51531AF0E442001AC5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945F51551AF0E442001AC5AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		945F51581AF0E443001AC5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945F515A1AF0E443001AC5AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		945F515D1AF0E443001AC5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		945F51631AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackGroundVideo+MPMoviePlayerViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945F51681AF0E443001AC5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945F51691AF0E443001AC5AF /* BackGroundVideo_MPMoviePlayerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundVideo_MPMoviePlayerViewControllerTests.swift; sourceTree = "<group>"; };
+		945F51731AF0E491001AC5AF /* backgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundVideo.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945F514B1AF0E442001AC5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945F51601AF0E443001AC5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		945F51451AF0E442001AC5AF = {
+			isa = PBXGroup;
+			children = (
+				945F51501AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController */,
+				945F51661AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests */,
+				945F514F1AF0E442001AC5AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945F514F1AF0E442001AC5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945F514E1AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController.app */,
+				945F51631AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945F51501AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				945F51531AF0E442001AC5AF /* AppDelegate.swift */,
+				945F51551AF0E442001AC5AF /* ViewController.swift */,
+				945F51571AF0E443001AC5AF /* Main.storyboard */,
+				945F515A1AF0E443001AC5AF /* Images.xcassets */,
+				945F515C1AF0E443001AC5AF /* LaunchScreen.xib */,
+				945F51731AF0E491001AC5AF /* backgroundVideo.mp4 */,
+				945F51511AF0E442001AC5AF /* Supporting Files */,
+			);
+			path = "BackGroundVideo+MPMoviePlayerViewController";
+			sourceTree = "<group>";
+		};
+		945F51511AF0E442001AC5AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945F51521AF0E442001AC5AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		945F51661AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				945F51691AF0E443001AC5AF /* BackGroundVideo_MPMoviePlayerViewControllerTests.swift */,
+				945F51671AF0E443001AC5AF /* Supporting Files */,
+			);
+			path = "BackGroundVideo+MPMoviePlayerViewControllerTests";
+			sourceTree = "<group>";
+		};
+		945F51671AF0E443001AC5AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945F51681AF0E443001AC5AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945F514D1AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945F516D1AF0E443001AC5AF /* Build configuration list for PBXNativeTarget "BackGroundVideo+MPMoviePlayerViewController" */;
+			buildPhases = (
+				945F514A1AF0E442001AC5AF /* Sources */,
+				945F514B1AF0E442001AC5AF /* Frameworks */,
+				945F514C1AF0E442001AC5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackGroundVideo+MPMoviePlayerViewController";
+			productName = "BackGroundVideo+MPMoviePlayerViewController";
+			productReference = 945F514E1AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		945F51621AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945F51701AF0E443001AC5AF /* Build configuration list for PBXNativeTarget "BackGroundVideo+MPMoviePlayerViewControllerTests" */;
+			buildPhases = (
+				945F515F1AF0E443001AC5AF /* Sources */,
+				945F51601AF0E443001AC5AF /* Frameworks */,
+				945F51611AF0E443001AC5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945F51651AF0E443001AC5AF /* PBXTargetDependency */,
+			);
+			name = "BackGroundVideo+MPMoviePlayerViewControllerTests";
+			productName = "BackGroundVideo+MPMoviePlayerViewControllerTests";
+			productReference = 945F51631AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945F51461AF0E442001AC5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					945F514D1AF0E442001AC5AF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					945F51621AF0E443001AC5AF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 945F514D1AF0E442001AC5AF;
+					};
+				};
+			};
+			buildConfigurationList = 945F51491AF0E442001AC5AF /* Build configuration list for PBXProject "BackGroundVideo+MPMoviePlayerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945F51451AF0E442001AC5AF;
+			productRefGroup = 945F514F1AF0E442001AC5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945F514D1AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController */,
+				945F51621AF0E443001AC5AF /* BackGroundVideo+MPMoviePlayerViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945F514C1AF0E442001AC5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945F51741AF0E4B1001AC5AF /* backgroundVideo.mp4 in Resources */,
+				945F51591AF0E443001AC5AF /* Main.storyboard in Resources */,
+				945F515E1AF0E443001AC5AF /* LaunchScreen.xib in Resources */,
+				945F515B1AF0E443001AC5AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945F51611AF0E443001AC5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945F514A1AF0E442001AC5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945F51561AF0E442001AC5AF /* ViewController.swift in Sources */,
+				945F51541AF0E442001AC5AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945F515F1AF0E443001AC5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945F516A1AF0E443001AC5AF /* BackGroundVideo_MPMoviePlayerViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		945F51651AF0E443001AC5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 945F514D1AF0E442001AC5AF /* BackGroundVideo+MPMoviePlayerViewController */;
+			targetProxy = 945F51641AF0E443001AC5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		945F51571AF0E443001AC5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945F51581AF0E443001AC5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945F515C1AF0E443001AC5AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945F515D1AF0E443001AC5AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945F516B1AF0E443001AC5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		945F516C1AF0E443001AC5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945F516E1AF0E443001AC5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BackGroundVideo+MPMoviePlayerViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		945F516F1AF0E443001AC5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BackGroundVideo+MPMoviePlayerViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		945F51711AF0E443001AC5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackGroundVideo+MPMoviePlayerViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackGroundVideo+MPMoviePlayerViewController.app/BackGroundVideo+MPMoviePlayerViewController";
+			};
+			name = Debug;
+		};
+		945F51721AF0E443001AC5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackGroundVideo+MPMoviePlayerViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackGroundVideo+MPMoviePlayerViewController.app/BackGroundVideo+MPMoviePlayerViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945F51491AF0E442001AC5AF /* Build configuration list for PBXProject "BackGroundVideo+MPMoviePlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945F516B1AF0E443001AC5AF /* Debug */,
+				945F516C1AF0E443001AC5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945F516D1AF0E443001AC5AF /* Build configuration list for PBXNativeTarget "BackGroundVideo+MPMoviePlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945F516E1AF0E443001AC5AF /* Debug */,
+				945F516F1AF0E443001AC5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945F51701AF0E443001AC5AF /* Build configuration list for PBXNativeTarget "BackGroundVideo+MPMoviePlayerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945F51711AF0E443001AC5AF /* Debug */,
+				945F51721AF0E443001AC5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945F51461AF0E442001AC5AF /* Project object */;
+}
